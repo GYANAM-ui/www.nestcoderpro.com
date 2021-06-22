@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heading {
+    width: 100%;
+    cursor: default;
+    font-family: 'Pacifico', cursive;
+}
+
+.login_div {
+    background: rgb(255, 255, 255);
+    float: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+}
+
+.login_div img {
+    width: 100px;
+    height: auto;
+}
+
+.login_div input {
+    border-radius: 15px;
+}
+
+.login_div button {
+    width: 60%;
+    border-radius: 20px;
+}
+
+.login_div button:hover {
+    width: 60%;
+    color: rgb(56, 119, 253);
+    border-radius: 20px;
+    transform: scale(1.2);
+    background-color: white;
+}
+
+.login_div p {
+    font-size: 14px;
+}
+
+.info {
+    background: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px;
+    float: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    border-color: #ddd;
+    border-left: 3px;
+}
+
+.info b {
+    cursor: pointer;
+}
+
+.info b:hover {
+    color: gold;
+    cursor: pointer;
+}
