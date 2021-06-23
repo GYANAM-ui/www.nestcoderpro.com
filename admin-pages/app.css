@@ -67,3 +67,17 @@
     text-align: center;
     border-radius: 20px;
 }
+
+#zoom_class_btn {
+    border-radius: 30px;
+}
+
+#zoom_class_btn:hover {
+    color: rgb(0, 110, 255);
+    border-radius: 30px;
+    background-color: white;
+}
+
+.text-primary:hover {
+    color: gold;
+}

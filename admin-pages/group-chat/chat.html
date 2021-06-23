@@ -1,1 +1,54 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./chat.css">
+    <title>Nesties Chat</title>
+    <link rel="shortcut icon" href="../../images/nesctcoder.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body style="background-color: grey;">
+    <h3 class="btn btn-primary heading">
+        Nesties Chat Comment your problem here we resolve you.
+    </h3>
+
+    <br><br>
+
+    <center>
+        <div class="chat-content-div">
+            <div class="note_div">
+                Don't use bad words otherwise you're block and you can't access this course.
+                <br><span style="font-size: 14px;" class="text-danger">Scroll down to see your message</span>
+            </div>
+            <br>
+            <div class="chat-display-div">
+                <div id="output" style="text-align: left;overflow:scroll; height: 330px;"></div>
+            </div>
+        </div>
+        <div class="msg-input-div">
+            <input type="text" name="msg" id="msg" class="form-control" placeholder="Type here">
+            <button class="btn btn-primary" onclick="send()">Send</button>
+        </div>
+        <br>
+        <button id="logout" class="btn btn-danger" onclick="logout()">
+            <i class="fa fa-arrow-left">&nbsp;</i>
+            Leave Chat
+        </button>
+        <br><br>
+    </center>
+
+    <script src="./chat-app.js"></script>
+</body>
+
+</html>

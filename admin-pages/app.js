@@ -28,3 +28,7 @@ function androidAPP() {
 function chat() {
     window.open("./group-chat/chat.html");
 }
+
+function mail() {
+    window.open("mailto:nestcoderlive@gmail.com?Subject=Hello Nest Coders");
+}
