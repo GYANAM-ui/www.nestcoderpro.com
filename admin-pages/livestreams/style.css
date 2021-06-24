@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+#_chat-button_ {
+    width: 20%;
+    border-radius: 30px;
+}
+
+#_chat-button_:hover {
+    width: 20%;
+    color: rgb(0, 60, 255);
+    border-radius: 30px;
+    background-color: white;
+}
+
+#_leave-button_ {
+    width: 20%;
+    border-radius: 30px;
+}
+
+#_leave-button_:hover {
+    width: 20%;
+    color: red;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#mail {
+    cursor: pointer;
+}
+
+#mail:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+}

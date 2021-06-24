@@ -32,3 +32,7 @@ function chat() {
 function mail() {
     window.open("mailto:nestcoderlive@gmail.com?Subject=Hello Nest Coders");
 }
+
+function joinStream() {
+    window.location = "./livestreams/live.html";
+}
