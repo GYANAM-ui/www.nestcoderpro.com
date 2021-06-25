@@ -1,83 +1,118 @@
-.heading {
-    width: 100%;
-    cursor: default;
-}
-
-.livestream_div {
-    width: 60%;
-    height: 350px;
-    padding: 10px;
-    border-radius: 20px;
-    background: rgb(160, 160, 160);
-}
-
-.content {
-    padding: 30px;
-}
-
-.component {
-    width: 65%;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
-    background-color: grey;
-}
-
-.component h4 {
-    width: 100%;
-    cursor: default;
-}
-
-.component iframe {
-    width: 60%;
-    border-radius: 15px;
-}
-
-.requirement_div {
-    background: rgb(255, 255, 255);
-    text-align: left;
-    padding: 10px;
-    float: none;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px grey;
-    border-color: #ddd;
-    border-left: 3px;
-}
-
-.requirement_div b {
-    cursor: pointer;
-}
-
-.requirement_div b:hover {
-    color: rgb(46, 130, 255);
-    cursor: pointer;
-}
-
-.requirement_div button {
-    width: 100%;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.requirement_div button:hover {
-    width: 100%;
-    color: goldenrod;
-    background-color: white;
-    text-align: center;
-    border-radius: 20px;
-}
-
-#zoom_class_btn {
-    border-radius: 30px;
-}
-
-#zoom_class_btn:hover {
-    color: rgb(0, 110, 255);
-    border-radius: 30px;
-    background-color: white;
-}
-
-.text-primary:hover {
-    color: gold;
-}
+    .heading {
+        width: 100%;
+        cursor: default;
+    }
+    
+    .livestream_div {
+        width: 60%;
+        height: 350px;
+        padding: 10px;
+        border-radius: 20px;
+        background: rgb(160, 160, 160);
+    }
+    
+    .content {
+        padding: 30px;
+    }
+    
+    .component {
+        width: 65%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: grey;
+    }
+    
+    .component h4 {
+        width: 100%;
+        cursor: default;
+    }
+    
+    .component iframe {
+        width: 60%;
+        border-radius: 15px;
+    }
+    
+    .requirement_div {
+        background: rgb(255, 255, 255);
+        text-align: left;
+        padding: 10px;
+        float: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px grey;
+        border-color: #ddd;
+        border-left: 3px;
+    }
+    
+    .requirement_div b {
+        cursor: pointer;
+    }
+    
+    .requirement_div b:hover {
+        color: rgb(46, 130, 255);
+        cursor: pointer;
+    }
+    
+    .requirement_div button {
+        width: 100%;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .requirement_div button:hover {
+        width: 100%;
+        color: goldenrod;
+        background-color: white;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    #zoom_class_btn {
+        border-radius: 30px;
+    }
+    
+    #zoom_class_btn:hover {
+        color: rgb(0, 110, 255);
+        border-radius: 30px;
+        background-color: white;
+    }
+    
+    .text-primary:hover {
+        color: gold;
+    }
+    
+    #liveStream__button {
+        background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    #liveStream__button:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .notice_div {
+        background: rgb(255, 255, 255);
+        text-align: left;
+        padding: 10px;
+        float: none;
+        border-radius: 5px;
+        border-color: #ddd;
+        border-left: 3px;
+    }
+    
+    #note p:hover {
+        color: gold;
+    }

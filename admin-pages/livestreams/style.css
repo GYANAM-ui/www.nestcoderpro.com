@@ -2,8 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
-iframe {
+.game {
     border-radius: 10px;
+    width: 756px;
+    height: 415px;
 }
 
 #_chat-button_ {
@@ -39,8 +41,15 @@ iframe {
     cursor: pointer;
 }
 
-img {
+.round {
     width: 150px;
     height: 100px;
     border-radius: 50%;
+}
+
+.thanks-img {
+    width: 80%;
+    height: 350px;
+    border-radius: 20px;
+    cursor: pointer;
 }
