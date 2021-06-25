@@ -2,13 +2,13 @@ user_name = localStorage.getItem("username");
 room_store = "Gorup-Chats";
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBURIuR6e-p-zsmUw-p9cfhZ2VPaLRRK7k",
-    authDomain: "collab-database.firebaseapp.com",
-    databaseURL: "https://collab-database-default-rtdb.firebaseio.com",
-    projectId: "collab-database",
-    storageBucket: "collab-database.appspot.com",
-    messagingSenderId: "896498122744",
-    appId: "1:896498122744:web:044e5019310fdd0033600d"
+    apiKey: "AIzaSyCE5prMYhHlLtZeqau0Bryh9auyGPzsPq0",
+    authDomain: "nest-coder-database.firebaseapp.com",
+    databaseURL: "https://nest-coder-database-default-rtdb.firebaseio.com",
+    projectId: "nest-coder-database",
+    storageBucket: "nest-coder-database.appspot.com",
+    messagingSenderId: "351597088298",
+    appId: "1:351597088298:web:d607b544bb2d03ded97d53"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
