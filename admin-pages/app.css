@@ -1,3 +1,7 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
     .heading {
         width: 100%;
         cursor: default;
@@ -171,4 +175,20 @@
     .text_align {
         text-align: right;
         font-family: 'Dancing Script', cursive;
+    }
+    
+    ._mobileApp_ {
+        width: 50%;
+        background: rgb(255, 255, 255);
+        text-align: left;
+        padding: 10px;
+        float: none;
+        border-radius: 5px;
+    }
+    
+    #_download_ {
+        float: none;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
     }
