@@ -1,0 +1,35 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    width: 100%;
+    cursor: default;
+    font-family: 'Pacifico', cursive;
+}
+
+.login_div {
+    background: rgba(228, 239, 255, 0.788);
+    float: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.login_div input {
+    border-radius: 20px;
+}
+
+.login_div button {
+    width: 60%;
+    border-radius: 30px;
+}
+
+.login_div button:hover {
+    width: 60%;
+    color: rgb(0, 119, 255);
+    border-radius: 30px;
+    transform: scale(1.1);
+    background-color: rgb(224, 240, 255);
+}

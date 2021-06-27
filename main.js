@@ -13,3 +13,7 @@ function start() {
         window.location = "admin-pages/admin.html";
     }
 }
+
+function artEd() {
+    window.location = "art-admin/art-login.html";
+}

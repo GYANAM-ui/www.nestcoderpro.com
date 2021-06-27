@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/nesctcoder.png" type="image/x-icon">
-    <title>Welcome! Nest Coder Pro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./art.css">
+    <link rel="shortcut icon" href="../images/nesctcoder.png" type="image/x-icon">
+    <title>Nest Art Ed</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -34,54 +34,28 @@
     </script>
 </head>
 
-<body style="background: grey;">
-    <h3 class="btn btn-success heading">
-        Anyone can code! Catch Your Dream.
-    </h3>
-
-    <div class="alert alert-warning alert-dismissible">
-        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-        <strong><i class="fa fa-star">&nbsp;</i> New!</strong> Our brand new <b>Art Education</b> Website is launch now, you can access <a href="art-admin/art-login.html">here</a>
-    </div>
+<body background="../images/art-background.png">
+    <h3 class="btn btn-primary heading"><b>Welcome To Art Education</b></h3>
 
     <center>
         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
-            <img src="images/nesctcoder.png" alt="Nest Coder">
-            <br>
+            <img src="../images/plane_logo.PNG" alt="Nest Cpder Art Education" style="width: 100px;height: auto;border-radius: 50%;">
+            <h5>Login</h5>
             <div class="form-group">
                 <label>Enter your name: </label>
                 <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name..">
                 <label>Enter your email: </label>
                 <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email..">
-                <label>Enter your phone number (Optional): </label>
-                <input type="number" name="number" id="number" class="form-control" placeholder="Enter your phone number..">
-                <span class="text-danger" id="error_span"></span>
-                <br><br>
-                <button class="btn btn-primary" onclick="start();">Login</button>
-                <br><br>
-                <div style="width: 100%;border-radius: 10px;border: 1px solid grey;" class="btn btn-warning" onclick="artEd()">Art Education</div>
-                <p class="text-muted">Anytime you can cancel this free course.</p>
+                <span id="error-message" class="text-danger"></span>
+                <br>
+                <button class="btn btn-primary" onclick="start()">Start</button><br>
+                <p style="font-size: 14px;" class="text-muted">Anytime you can cancel this free course.</p>
             </div>
-            <br>
+            <p>Support? <span style="cursor: pointer;" onclick="support()" class="text-primary">support@nestartedu.com</span></p>
         </div>
-
-        <br><br>
-
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 info">
-            <h5 class="text-primary" style="text-align: center;cursor: pointer;">Nest Coder info</h5>
-            <div class="form-group">
-                <h6>Founder: <b>Gyanam Gogoi</b></h6>
-                <h6>Co-Founder: <b>Bedabrata Bhatacharjee</b></h6>
-                <h6>Manager: <b>Ayush Kumar</b></h6>
-                <h6>Art Ed: <b>Janardon Konwar</b></h6>
-                <p>Developed by <b>Gyanam Gogoi</b></p>
-            </div>
-        </div>
-
-        <br><br>
     </center>
 
-    <script src="main.js"></script>
+    <script src="./art.js"></script>
 </body>
 
 </html>
