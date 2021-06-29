@@ -1,3 +1,88 @@
 Vishalkonwar97@gmail.com
 ggyanam869@gmail.com
 nescoderlive@gmail.com
+
+// codes //
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/nesctcoder.png" type="image/x-icon">
+    <title>Art Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '7b490c49018a0f7e88ee427503e01e9887e401bf';
+        window.smartsupp || (function(d) {
+            var s, c, o = smartsupp = function() {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+</head>
+
+<body style="background-color: rgb(199, 199, 199);">
+    <style>
+        .note {
+            width: 65%;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 20px;
+            background-color: rgb(255, 253, 253);
+        }
+        
+        img {
+            width: 60%;
+            height: 250px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        
+        span {
+            font-size: 15px;
+        }
+        
+        .btn-primary {
+            border-radius: 30px;
+        }
+    </style>
+
+    <center>
+        <div class="note">
+            <h3 class="text-success">Successfully Registered</h3>
+            <p class="text-muted">Now you wait for few weeks, because we're work on this application for we give best experience to you.</p>
+            <p>Art Education Teach by <b>Janardon Konwar</b>(Co-Founder of Nest Art)</p>
+            <br>
+            <img src="https://source.unsplash.com/random" alt="Successfully Registered from Nest Coder Art Education">
+            <br>
+            <span class="text-success"><em>Enjoy! Our random images</em></span>
+            <br>
+            <div class="btn btn-primary" onclick="codingStart()">Switch Coding</div>
+            <p>Any kind of support please reach us on out chat bubble in your bottom right corner.</p>
+        </div>
+    </center>
+
+    <script>
+        function codingStart() {
+            window.location = "../../index.html";
+        }
+    </script>
+</body>
+
+</html>

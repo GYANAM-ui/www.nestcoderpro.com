@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../images/nesctcoder.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../images/plane_logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="./home.css">
     <title>Art Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
@@ -32,52 +34,63 @@
     </script>
 </head>
 
-<body style="background-color: rgb(199, 199, 199);">
-    <style>
-        .note {
-            width: 65%;
-            padding: 20px;
-            margin-top: 50px;
-            border-radius: 20px;
-            background-color: rgb(255, 253, 253);
-        }
-        
-        img {
-            width: 60%;
-            height: 250px;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-        
-        span {
-            font-size: 15px;
-        }
-        
-        .btn-primary {
-            border-radius: 30px;
-        }
-    </style>
-
+<body style="background-color: rgb(204, 204, 204);">
+    <h3 class="btn btn-success heading">Art Videos Gallery</h3>
+    <br>
+    <button class="btn btn-default" id="scroll_Top" onclick="scrollTOP()"><i class="fa fa-arrow-up"></i></button>
     <center>
-        <div class="note">
-            <h3 class="text-success">Successfully Registered</h3>
-            <p class="text-muted">Now you wait for few weeks, because we're work on this application for we give best experience to you.</p>
-            <p>Art Education Teach by <b>Janardon Konwar</b>(Co-Founder of Nest Art)</p>
-            <br>
-            <img src="https://source.unsplash.com/random" alt="Successfully Registered from Nest Coder Art Education">
-            <br>
-            <span class="text-success"><em>Enjoy! Our random images</em></span>
-            <br>
-            <div class="btn btn-primary" onclick="codingStart()">Switch Coding</div>
-            <p>Any kind of support please reach us on out chat bubble in your bottom right corner.</p>
+        <div class="info">
+            <p><i class="fa fa-star"></i> Art Education teach by <b>Janardon Konwar</b> from his <b>YouTube</b> Channel. But we are show all tutorials here.</p>
+            <div type="button" id="learnDIV" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Learn Art</div>
+        </div>
+        <br>
+        <div class="art-videos">
+            <p>No videos available. <b>Videos are coming soon.</b></p>
+            <img src="https://source.unsplash.com/random" alt="Happy Drawing" />
+            <p class="text-success">
+                <b>
+                    <em>
+                        Enjoy! Our random images.
+                    </em>
+                </b>
+            </p>
+            <p>Support? <span id="mail" class="text-primary" onclick="mail()">support@nestartedu.com</span></p>
+        </div>
+        <br>
+        <div class="welcome">
+            <h5 id="name"></h5>
+            <h5>Coming Soon...</h5>
+            <div class="btn btn-primary" style="width: 50%;border-radius: 30px;" onclick="switchCoding()">Switch Coding</div>
+        </div>
+        <br><br>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" style="text-align: center;"><b class="text-primary">Learn Art</b></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>There are no videos available now. but after few days we will update videos here. Our team is working on it.</p>
+                        <h6 class="text-muted">Art Education teach by <b>Janardon Konwar</h6>
+                        <h6 class="text-muted">-Founder and CEO: <b>GYANAM</b></h6>
+                        <div class="btn btn-link" onclick="artChannelJK()">
+                            <span>YouTube Channel of Janardon Konwar</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </center>
 
-    <script>
-        function codingStart() {
-            window.location = "../../index.html";
-        }
-    </script>
+    <script src="./home.js"></script>
 </body>
 
 </html>
