@@ -61,3 +61,20 @@ html {
     border-radius: 50%;
     background: rgb(37, 106, 255);
 }
+
+.welcome2 {
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.welcome2 span {
+    border-radius: 30px;
+}
+
+.welcome2 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

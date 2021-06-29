@@ -27,3 +27,7 @@ function scrollTOP() {
 function switchCoding() {
     window.location = "../../index.html";
 }
+
+function artClass() {
+    window.open("https://us05web.zoom.us/j/3310594892?pwd=N0trZ0g0SDdzaUJBUk44b1dieXZ4QT09");
+}
