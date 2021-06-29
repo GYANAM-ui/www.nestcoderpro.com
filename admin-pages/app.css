@@ -192,3 +192,10 @@
         border-radius: 30px;
         cursor: pointer;
     }
+    
+    .art-videos {
+        width: 60%;
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #fff;
+    }

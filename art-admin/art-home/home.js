@@ -1,7 +1,14 @@
-username = localStorage.getItem("name");
-useremail = localStorage.getItem("email");
+username = localStorage.getItem("username");
+useremail = localStorage.getItem("useremail");
 
 document.getElementById("name").innerHTML = "Welcome " + username + " !!";
+document.getElementById("email").innerHTML = "Email: " + useremail;
+
+emailing = "mailto:" + useremail;
+
+function userMail() {
+    window.open(emailing);
+}
 
 function mail() {
     window.open("mailto:nestcoderlive@gmail.com?Subject=Support");

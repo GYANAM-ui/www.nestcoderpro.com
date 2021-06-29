@@ -40,6 +40,10 @@
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         <strong><i class="fa fa-star">&nbsp;</i> New!</strong> Our team ready to publish our new mobile app, there you can access our course anywhere anytime. Download <a href="#show">here</a>
     </div>
+    <div class="alert alert-success alert-dismissible">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong><i class="fa fa-star">&nbsp;</i> New!</strong> <b>You can learn basic Html, CSS in 2 July livestream, Be there. I will see on there.</b>
+    </div>
     <br>
     <center>
         <div class="livestream_div">
@@ -48,7 +52,7 @@
             <span style="text-align: center;color: #fff;">Co-Founder: <b><em>Bedabrata</em></b></span>
             <br><br>
             <button id="liveStream__button" class="btn btn-primary" onclick="joinStream()">Watch Livestream</button>
-            <br>
+            <p style="color: rgb(224, 224, 224);"><b>You can learn basic Html, CSS in 2 July livestream, Be there. I will see on there.</b></p>
             <img class="_stream-logo_" src="../images/plane_logo.PNG" alt="Nest Coder" title="Nest Coder Logo">
             <br>
         </div>
@@ -60,9 +64,7 @@
             <span>There you can access our course anywhere anytime.</span>
         </div>
 
-        <br>
-
-        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 notice_div">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 notice_div">
             <h4 style="text-align: center;cursor: pointer;" class="text-primary"><b>
                 Notice
                 <img class="__new_release__" src="../images/new_release.png" alt="New Release">
@@ -74,7 +76,7 @@
             <div class="text_align">
                 <span style="text-align: right;"> --<em><b>GYANAM GOGOI</b></em></span>
             </div>
-        </div>
+        </div> -->
 
         <br>
 
@@ -104,21 +106,24 @@
             </div>
         </div>
 
-        <br><br>
+        <br>
 
-        <div class="content ">
-            <div class="component ">
-                <h4 class="btn btn-primary ">Create your first webpage in HTML</h4>
-                <hr>
-                <iframe src="https://www.youtube.com/embed/8ZuPiEB_UDU " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-            </div>
-
-            <div class="component ">
-                <h4 class="btn btn-primary ">How to access webcam using python</h4>
-                <hr>
-                <iframe src="https://www.youtube.com/embed/y_2Vf7EhveQ " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-            </div>
+        <div class="art-videos">
+            <p><b>Create your first webpage in HTML <span class="text-primary">#1</span></b></p>
+            <iframe style="width: 100%;height: 350px;border-radius: 10px;" src="https://www.youtube.com/embed/8ZuPiEB_UDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Support? <span id="mail" class="text-primary" onclick="mail()">support@nestartedu.com</span></p>
         </div>
+        <br>
+        <div class="art-videos">
+            <p><b>How to access webcam using pythons <span class="text-primary">#2</span></b>
+            </p>
+            <iframe style="width: 100%;height: 350px;border-radius: 10px;" src="https://www.youtube.com/embed/y_2Vf7EhveQ " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p>Support? <span id="mail" class="text-primary" onclick="mail()">support@nestartedu.com</span></p>
+        </div>
+
+        <br>
     </center>
 
     <script src="./app.js "></script>
