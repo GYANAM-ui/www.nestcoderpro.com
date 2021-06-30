@@ -37,7 +37,7 @@ html {
 }
 
 #mail:hover {
-    color: gold;
+    color: rgb(7, 226, 7);
     cursor: pointer;
 }
 
@@ -47,9 +47,25 @@ html {
     border-radius: 50%;
 }
 
-.thanks-img {
+
+/* .thanks-img {
     width: 80%;
     height: 350px;
     border-radius: 20px;
-    cursor: pointer;
+} */
+
+.stream {
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url('../../images/stream-images/day-2.PNG');
+}
+
+.stream button {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 100px;
+    background-color: #fff;
 }

@@ -33,19 +33,25 @@
     </script>
 </head>
 
-<body>
+<body style="background-color: rgb(228, 228, 228);">
     <center>
-        <div style="cursor: pointer;" class="text-primary" onclick="redirectYouTube()">
+        <!-- <div style="cursor: pointer;" class="text-primary" onclick="redirectYouTube()">
             <b class="text-danger">
                 YouTube Link 
-                <i class="fa fa-youtube"></i> :</b> https://www.youtube.com/vo55yjAwN5w</div>
+                <i class="fa fa-youtube"></i> :</b> https://www.youtube.com/vo55yjAwN5w</div> -->
         <div class="game">
-            <div style="color: red;"><em><b>Stream is ended</b></em></div>
+            <div style="color: rgb(16, 223, 16);"><em><b>Stream Is Start On 2 July 2021</b></em></div>
             <br>
             <span>Stream is recorded on YouTube you can get it <a href="https://www.youtube.com/vo55yjAwN5w" target="_blank">here</a></span>
             <br>
             <div class="thanks-img">
-                <h4 class="text-success">Livestream will start 2 July.</h4>
+                <div class="stream">
+                    <button class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                        <svg style="color: rgb(11, 145, 255);" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+                            <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                        </svg>
+                    </button>
+                </div>
                 <br>
                 <h4 class="text-primary" id="demo"></h4>
             </div>
@@ -68,6 +74,29 @@
         </div>
         <br>
         <img class="round" src="../../images/nesctcoder.png" alt="Nest Coder Pro">
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" style="text-align: center;"><b class="text-primary">Learn Html and CSS</b></h4>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="btn btn-success">YouTube Livestream Link: <a href="https://youtu.be/RHtU8YDZTRw" target="_blank">www.youtube.com/nestcoderpro.in/</a></h5>
+                        <img style="width: 100%;height: 300px;" src="../../images/stream-images/day-2.PNG" alt="HTML-CSS">
+                        <h6 class="text-success">Host by <b>GYANAM</b></h6>
+                        <h6 class="text-muted">Founder and CEO: <b>GYANAM</b></h6>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><span class="text-danger">Close</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </center>
 
     <script src="./live.js"></script>
