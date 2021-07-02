@@ -31,3 +31,7 @@ function switchCoding() {
 function artClass() {
     window.open("https://us05web.zoom.us/j/3310594892?pwd=N0trZ0g0SDdzaUJBUk44b1dieXZ4QT09");
 }
+
+function newEvent() {
+    window.open("https://gyanam-ui.github.io/_nestEvents/");
+}

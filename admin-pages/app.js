@@ -42,3 +42,7 @@ apkURL = 'https://u6512343.ct.sendgrid.net/ls/click?upn=9JS-2F714wtrENuLalHfV-2B
 function downloadAPK() {
     window.open(apkURL);
 }
+
+function newEvent() {
+    window.open("https://gyanam-ui.github.io/_nestEvents/");
+}
