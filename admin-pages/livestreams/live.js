@@ -10,6 +10,10 @@ function leaveLiveStream() {
     window.location = "../admin.html";
 }
 
+function newMarcelEvent() {
+    window.open("https://gyanam-ui.github.io/_nestEvents/")
+}
+
 function redirectYouTube() {
     window.open("https://youtu.be/vo55yjAwN5w");
 }

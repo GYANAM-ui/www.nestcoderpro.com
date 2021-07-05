@@ -62,3 +62,11 @@ html {
     color: gold;
     cursor: pointer;
 }
+
+.new {
+    width: 100%;
+    background-color: gold;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
